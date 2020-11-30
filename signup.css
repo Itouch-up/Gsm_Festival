@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-image: url(/image/container_bg.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
 
 /*header*/
 .logo {
