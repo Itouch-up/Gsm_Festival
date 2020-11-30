@@ -6,6 +6,7 @@ body{
   background-image: url(/image/container_bg.png);
   background-position: bottom right;
   background-repeat: no-repeat;
+  min-height: 965px;
 }
 
 /*header*/
@@ -27,10 +28,15 @@ form {
   left: 38vw;
   top: 20vh;
   padding: 50px;
-  padding-top: 10vh;
+  padding-top: 7vh;
   padding-bottom: 10vh;
   background-color: rgba(248, 238, 230, 0.2);
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+form label{
+  font-size: 2rem;
 }
 
 input[type=text],

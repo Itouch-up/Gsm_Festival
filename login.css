@@ -3,11 +3,16 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background: #a7d7f7;
+}
 /*login*/
 #login {
   width: 250px;
   height: 200px;
+  position: absolute;
+  left: 45%;
+  top: 45%;
 }
 
 input[type=text],
@@ -41,13 +46,23 @@ button :hover {
   left: 20%;
 }
 
-#login {
-  position: absolute;
-  left: 45%;
-  top: 45%;
+.card {
+  position: relative;
+  left: 42vw;
+  top: 14vh;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card h5{
+  text-align: center;
 }
 
 /*header*/
+header{
+  background-color: white;
+  position: relative;
+  z-index: 9999;
+}
 .logo {
   -webkit-box-shadow: black 3px 3px 3px;
           box-shadow: black 3px 3px 3px;
